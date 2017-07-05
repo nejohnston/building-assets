@@ -1,0 +1,105 @@
+/* Header */
+
+.main-navigation {
+    display: flex;
+    font-family: 'Novecento Web', sans-serif;
+    text-transform: uppercase;
+    li {
+        padding-left: 2rem;
+        font-size: 1.1rem;
+    }
+}
+.site-header {
+    background-color: hsla(0,0%,100%,.85);
+    border-bottom: 1px solid #e1e1e1;
+    padding: .5rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9999999;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+  h1 {
+    display: flex;
+    background: url(../../images/inhabitent-logo-tent.svg) no-repeat;
+    background-size: 50px 33px;
+    height: 33px;
+    margin: 0;
+    width: 50px;
+    overflow: hidden;
+    text-indent: 100%;
+    }
+}
+
+
+.header-search {
+        line-height: 1;
+        padding-left: 1.5rem;
+form {
+    display: block;
+
+    fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    }
+}
+    .search-field {
+        font-family: 'Novecento Web', sans-serif;
+        border: none;
+        display: none;
+    }
+    .search-submit {
+        color: $color__link;
+        border: none;
+        padding-top: .33rem;
+        float: left;
+            }
+    .search-width {
+        display: block;
+        background: transparent;
+    }
+}
+
+/* Footer */
+
+.site-footer {
+    background: url(../../images/dark-wood@2x.png);
+    background-size: 512px, 512px;
+}
+
+.footer-info {
+    display: flex;
+}
+
+.footer-block-item {
+    margin: 3rem 0rem;
+    padding-right: 1.5rem;
+    width: 25%;
+    color: #fff;
+}
+.footer-block-item {
+    margin: 3rem 0rem;
+    width: 50%;
+}
+.text-logo {
+    text-align: right;
+    margin-top: 1rem;
+}
+.footer-header {
+    color: #d99054;
+}
+.copyright {
+    font-family: 'Novecento Web', sans-serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: .75rem;
+    font-size: 1rem;
+}
+
+a.footer-link {
+    color: #fff;
+}

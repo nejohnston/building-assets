@@ -25,7 +25,7 @@
 				<div class="site-branding">
 					<div class="logo">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<h1 class="site-title">Inhabitent</h1>
+					<h1 class="site-title">Building Assets</h1>
 					</a><!-- .site-branding -->
 					</div>
 				</div>

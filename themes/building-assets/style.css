@@ -661,4 +661,99 @@ object {
 --------------------------------------------------------------*/
 .hero {
   background-image: url(../../assets/images/hero-image.jpeg);
-  height: 100vh; }
+  height: 100vh;
+  width: auto; }
+
+/* Header */
+.main-navigation {
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Novecento Web', sans-serif;
+  text-transform: uppercase; }
+  .main-navigation li {
+    padding-left: 2rem;
+    font-size: 1.1rem; }
+
+.site-header {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-bottom: 1px solid #e1e1e1;
+  padding: .5rem 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9999999; }
+  .site-header .container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+  .site-header h1 {
+    display: -ms-flexbox;
+    display: flex;
+    background: url(../../images/inhabitent-logo-tent.svg) no-repeat;
+    background-size: 50px 33px;
+    height: 33px;
+    margin: 0;
+    width: 50px;
+    overflow: hidden;
+    text-indent: 100%; }
+
+.header-search {
+  line-height: 1;
+  padding-left: 1.5rem; }
+  .header-search form {
+    display: block; }
+    .header-search form fieldset {
+      border: 0;
+      margin: 0;
+      padding: 0; }
+  .header-search .search-field {
+    font-family: 'Novecento Web', sans-serif;
+    border: none;
+    display: none; }
+  .header-search .search-submit {
+    color: royalblue;
+    border: none;
+    padding-top: .33rem;
+    float: left; }
+  .header-search .search-width {
+    display: block;
+    background: transparent; }
+
+/* Footer */
+.site-footer {
+  background: url(../../images/dark-wood@2x.png);
+  background-size: 512px, 512px; }
+
+.footer-info {
+  display: -ms-flexbox;
+  display: flex; }
+
+.footer-block-item {
+  margin: 3rem 0rem;
+  padding-right: 1.5rem;
+  width: 25%;
+  color: #fff; }
+
+.footer-block-item {
+  margin: 3rem 0rem;
+  width: 50%; }
+
+.text-logo {
+  text-align: right;
+  margin-top: 1rem; }
+
+.footer-header {
+  color: #d99054; }
+
+.copyright {
+  font-family: 'Novecento Web', sans-serif;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: .75rem;
+  font-size: 1rem; }
+
+a.footer-link {
+  color: #fff; }
