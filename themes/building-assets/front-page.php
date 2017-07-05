@@ -6,4 +6,6 @@
  */
 
 get_header(); ?>
-
+<section class='hero'>
+d
+</section>

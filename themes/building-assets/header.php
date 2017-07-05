@@ -5,7 +5,8 @@
  * @package RED_Starter_Theme
  */
 
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -19,17 +20,26 @@
 	<body <?php body_class(); ?>>
 		<div id="page" class="hfeed site">
 			<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a>
-
-			<header id="masthead" class="site-header" role="banner">
+			<header id="masthead" class="site-header reverse-header" role="banner">
+				<div class="container">
 				<div class="site-branding">
-					<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-					<p class="site-description"><?php bloginfo( 'description' ); ?></p>
-				</div><!-- .site-branding -->
-
+					<div class="logo">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<h1 class="site-title">Inhabitent</h1>
+					</a><!-- .site-branding -->
+					</div>
+				</div>
+				<div class="navigation-wrapper">
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+					<div class="header-search">
+					<?php get_search_form() ?>
+					</div>
 				</nav><!-- #site-navigation -->
+				</div>
+				</div>
+				</div>
 			</header><!-- #masthead -->
-
+</div>
 			<div id="content" class="site-content">
