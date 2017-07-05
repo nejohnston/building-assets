@@ -5,5 +5,5 @@
  * @package RED_Starter_Theme
  */
 
-?>
+get_header(); ?>
 
