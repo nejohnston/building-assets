@@ -22,12 +22,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/redacademy/redstarter.git"
+    "url": "git+https://github.com/nejohnston/building-assets"
   },
   "author": "mandiwise",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/redacademy/redstarter/issues"
+    "url": "https://github.com/nejohnston/building-assets/issues"
   },
-  "homepage": "https://github.com/redacademy/redstarter#readme"
+  "homepage": "https://github.com/nejohnston/building-assets#readme"
 }
