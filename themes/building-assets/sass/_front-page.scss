@@ -2,17 +2,26 @@
 # Front Page
 --------------------------------------------------------------*/
 
-.hero {
-    background-image: url(../../assets/images/hero-image);
-    height: 100vh;
-    width: 100%;
-    position: relative;
+.home {
+    background-color: rgba(255, 255, 255, 0.75);
+    .content-wrapper {
+        max-width: 770px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero {
+        background-image: url('../../assets/images/myanmar-kids.jpg');
+        height: 100vh;
+        width: auto;
+        position: relative;
+        margin-top: -32px;
+    }
+    .title {
+        position: absolute;
+        top: 6rem;
+        left: 10rem;
+        color: #fff;
+        z-index: 1;
+        font-size: 3rem;
 }
-.hero-opacity {
-    background-color: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
