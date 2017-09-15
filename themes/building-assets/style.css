@@ -715,12 +715,13 @@ object {
     margin-right: auto; }
   .home .hero {
     background-image: url("../../assets/images/myanmar-kids.jpg");
-    height: 100vh;
+    height: auto;
     width: auto;
     position: relative;
     margin-top: -32px; }
   .home .title {
     position: absolute;
+    font-family: 'Novecento Web', sans-serif;
     top: 6rem;
     left: 10rem;
     color: #fff;
@@ -738,7 +739,6 @@ object {
     font-size: 1.1rem; }
 
 .site-header {
-  border-bottom: 1px solid #e1e1e1;
   padding: .5rem 0;
   position: fixed;
   width: 100%;

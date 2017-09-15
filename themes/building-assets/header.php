@@ -32,10 +32,18 @@
 				<div class="navigation-wrapper">
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-					<div class="header-search">
-					<?php get_search_form() ?>
+					<!-- <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?> -->
+					<!-- <div class="header-search"> -->
+					<!-- <?php get_search_form() ?> -->
 					</div>
+					<nav class="main-navigation">
+                <div class="menu">
+                    <div><a href="#mission">Mission</a><div>
+                    <div><a href="#vision">Vision</a><div>
+                    <div><a href="#who-we-are">Who We Are</a><div>
+                    <div><a href="#what-we-do">What We Do</a><div>
+				</div>
+            </nav>
 				</nav><!-- #site-navigation -->
 				</div>
 				</div>

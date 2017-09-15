@@ -11,13 +11,14 @@
     }
     .hero {
         background-image: url('../../assets/images/myanmar-kids.jpg');
-        height: 100vh;
+        height: auto;
         width: auto;
         position: relative;
         margin-top: -32px;
     }
     .title {
         position: absolute;
+        font-family: 'Novecento Web', sans-serif;
         top: 6rem;
         left: 10rem;
         color: #fff;
