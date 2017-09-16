@@ -22,32 +22,21 @@
 			<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a>
 			<header id="masthead" class="site-header reverse-header" role="banner">
 				<div class="container">
-				<div class="site-branding">
-					<div class="logo">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<h1 class="site-title">Building Assets</h1>
-					</a><!-- .site-branding -->
+					<div class="title">
+					<h1>Building Assets</h1>
 					</div>
-				</div>
-				<div class="navigation-wrapper">
-				<nav id="site-navigation" class="main-navigation" role="navigation">
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
-					<!-- <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?> -->
-					<!-- <div class="header-search"> -->
-					<!-- <?php get_search_form() ?> -->
+					<div class="menu">
+						<a href="#mission">Mission</a>
+						<a href="#vision">Vision</a>
+						<a href="#who-we-are">Who We Are</a>
+						<a href="#what-we-do">What We Do</a>
 					</div>
-					<nav class="main-navigation">
-                <div class="menu">
-                    <div><a href="#mission">Mission</a><div>
-                    <div><a href="#vision">Vision</a><div>
-                    <div><a href="#who-we-are">Who We Are</a><div>
-                    <div><a href="#what-we-do">What We Do</a><div>
-				</div>
-            </nav>
-				</nav><!-- #site-navigation -->
-				</div>
 				</div>
 				</div>
 			</header><!-- #masthead -->
+			<button class='donate-button'>
+					<h1>Donate</h1>
+				</button>
 </div>
 			<div id="content" class="site-content">
+

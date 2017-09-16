@@ -5,24 +5,63 @@
 .home {
     background-color: rgba(255, 255, 255, 0.75);
     .content-wrapper {
-        max-width: 770px;
+        max-width: 900px;
         margin-left: auto;
         margin-right: auto;
     }
     .hero {
-        background-image: url('../../assets/images/myanmar-kids.jpg');
         height: auto;
         width: auto;
         position: relative;
         margin-top: -32px;
     }
     .title {
-        position: absolute;
         font-family: 'Novecento Web', sans-serif;
-        top: 6rem;
-        left: 10rem;
         color: #fff;
         z-index: 1;
         font-size: 3rem;
+    }
+    h2 {
+        font-family: 'Novecento Web', sans-serif;
+        color: #d99054;
+        font-size: 2rem;
+    }
+    p {
+        font-family: 'Merriweather Web', sans-serif;
+        color: #d99054;
+        font-size: 1.6rem;
+    }
+.img-container {
+    width: 900px;
+    display: fixed;
+    .parallax-img {
+        width: 900px;
+        display: fixed;
+    }
+}
+.my-container {
+    height: 500px;
+    position: relative;
+    background: #000;
+    overflow: hidden;
+}
+.my-container:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.9;
+    background-image: url('../../assets/images/myanmar-kids.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 }
