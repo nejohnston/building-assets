@@ -31,7 +31,9 @@ get_header(); ?>
             broken down and a more level playing field realized through enhanced gender
             equality, justice and peace.</p>
     </section>
-    <div class='img'></div>
+    <div class='img-container'>
+        <img class='parallax-img' src='<?php echo get_template_directory_uri(); ?>/assets/images/blindwoman.jpg'/>
+    </div>
     <section>
         <h2 id='who-we-are'>Who We Are</h2>
         <p>BA is a global non-profit, volunteer organization that recognizes the importance
@@ -41,7 +43,9 @@ get_header(); ?>
             investment/trade, and the developmental solutions, particularly focusing on the
             integration of gender equality programming.</p>
     </section>
-    <div class='img'></div>
+    <div class='img-container'>
+        <img class='parallax-img' src='<?php echo get_template_directory_uri(); ?>/assets/images/children-playing.jpg'/>
+    </div>
     <section>
         <h2 id='what-we-do'>What We Do</h2>
         <p>We empower local partners who work to remove the barriers to social and economic

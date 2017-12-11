@@ -3,8 +3,10 @@
 .container {
     display: flex;
     justify-content: space-between;
+    max-width: 900px;
     margin-right: 1rem;
     margin-left: 1rem;
+    color: #d99054;
 }
 .main-navigation {
     display: flex;
@@ -23,14 +25,13 @@
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    a {
-        text-decoration: none;
-        margin: 1em;
-        font-size: 1rem;
-        &:visited {
-            color: #d99054
-        }
-    }
+    color: #d99054;
+a {
+    text-decoration: none;
+    margin: 1em;
+    font-size: 1rem;
+    color: #d99054;
+}
 }
 .site-header {
     padding: .5rem 0;

@@ -685,8 +685,10 @@ object {
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
+  max-width: 900px;
   margin-right: 1rem;
-  margin-left: 1rem; }
+  margin-left: 1rem;
+  color: #d99054; }
 
 .main-navigation {
   display: -ms-flexbox;
@@ -706,13 +708,13 @@ object {
   display: flex;
   -ms-flex-direction: row;
       flex-direction: row;
-  text-decoration: none; }
+  text-decoration: none;
+  color: #d99054; }
   .menu a {
     text-decoration: none;
     margin: 1em;
-    font-size: 1rem; }
-    .menu a:visited {
-      color: #d99054; }
+    font-size: 1rem;
+    color: #d99054; }
 
 .site-header {
   padding: .5rem 0;
@@ -740,7 +742,7 @@ object {
     border: none;
     display: none; }
   .header-search .search-submit {
-    color: royalblue;
+    color: #d99054;
     border: none;
     padding-top: .33rem;
     float: left; }
