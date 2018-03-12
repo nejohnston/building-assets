@@ -11,7 +11,17 @@
   <!-- #content -->
 
   <footer id="colophon" class="site-footer" role="contentinfo">
-    <div class="site-info">
+    <div class="footer">
+      <p>
+        Dana Mcartney
+      </p>
+      <p>
+        Email: danamccartney@hotmail.com
+      </p>
+      <p>
+        Vancouver, British Columbia
+      </p>
+      <p>Canada</p>
     </div>
     <!-- .site-info -->
   </footer>

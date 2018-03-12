@@ -31,37 +31,50 @@
         color: #d99054;
         font-size: 1.6rem;
     }
-.img-container {
-    width: 900px;
-    display: fixed;
-    .parallax-img {
-        width: 900px;
+    .img-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 95vh;
         display: fixed;
+        .parallax-img {
+            width: 95vh;
+            display: fixed;
+        }
+    }
+    .my-container {
+        height: 500px;
+        position: relative;
+        background: #000;
+        overflow: hidden;
+    }
+    .my-container:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0.9;
+        background-image: url('../../assets/images/myanmar-kids.jpg');
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
     }
 }
-.my-container {
-    height: 500px;
-    position: relative;
-    background: #000;
-    overflow: hidden;
-}
-.my-container:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #d99054;
+    text-align: center;
     width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.9;
-    background-image: url('../../assets/images/myanmar-kids.jpg');
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
 }
