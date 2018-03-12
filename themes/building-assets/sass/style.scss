@@ -1,9 +1,9 @@
 /*!
-Theme Name: RED Starter Theme
+Theme Name: Building Assets Theme
 Theme URI: http://underscores.me/
-Author: RED Academy
+Author: Nicholas Johnston
 Author URI: http://www.redacademy.com
-Description: A WordPress starter theme for RED Academy students.
+Description: A WordPress theme for Building Assets Fund.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -46,12 +46,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 --------------------------------------------------------------*/
 
 // Imported but not included in the stylesheet.
-
 @import "variables";
 @import "mixins";
-
 // CSS included in style.css.
-
 @import "normalize";
 @import "fonts";
 @import "typography";

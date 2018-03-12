@@ -1,6 +1,6 @@
 # RED Starter
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+A WordPress theme for Building Assets Fund.
 
 ## Installation
 
