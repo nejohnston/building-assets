@@ -1,15 +1,16 @@
 <?php
 /**
- * The sidebar containing the main widget area.s
- *
- * @package RED_Starter_Theme
- */
+* The sidebar containing the main widget area.s
+*
+* @package Building_Assets_Theme
+*/
 
 if ( ! is_active_sidebar( 'sidebar-1' ) ) {
-	return;
+    return;
 }
 ?>
 
-<div id="secondary" class="widget-area" role="complementary">
-	<?php dynamic_sidebar( 'sidebar-1' ); ?>
-</div><!-- #secondary -->
+  <div id="secondary" class="widget-area" role="complementary">
+    <?php dynamic_sidebar( 'sidebar-1' ); ?>
+  </div>
+  <!-- #secondary -->
